@@ -1,0 +1,65 @@
+body,h1, h2, h3, p, div, ul, li, dl, dt, dd, form, fieldset, legend, label{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    /* height: 5000px; */
+    font-family: "맑은 고딕", "나눔 고딕", sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+}
+fieldset, img{
+    border: 0 none;
+}
+input, button{
+    vertical-align: middle;
+}
+button {
+    border: 0 none;
+    background: transparent;
+    cursor: pointer;
+}
+address{
+    font-style: normal;
+}
+
+/* common */
+.hide{
+    position: absolute;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+/* shift + tab  */
+
+.skip_menu{
+    position: absolute;
+    left: 10px;
+    top: -100px;
+    width: 200px;
+}
+.skip_menu a{
+    display: block;
+    background: teal;
+    color: #fff;
+    padding: 5px;
+    position: absolute;
+}
+.skip_menu a:focus, .skip_menu a:active{
+    top: 110px;
+}
